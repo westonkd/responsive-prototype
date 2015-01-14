@@ -254,7 +254,7 @@ body {
   padding: 6px 0 6px 24px;
 }
 .adc-category ul li:before {
-  background: url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  background: url('{{ site.baseurl }}/assets/images/sprite.svg') no-repeat 0px 0px;
   width: 19px;
   height: 19px;
   background-position: -68px -2px;
@@ -264,7 +264,7 @@ body {
   left: 12px;
 }
 .adc-category ul li:hover:before {
-  background: url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  background: url('{{ site.baseurl }}/assets/images/sprite.svg') no-repeat 0px 0px;
   width: 19px;
   height: 19px;
   background-position: -68px -2px;

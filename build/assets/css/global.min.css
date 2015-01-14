@@ -9521,7 +9521,7 @@ h2.eventDateHeader {
   overflow: scroll;
 }
 .quick-guide .close-btn {
-  background: url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  background: url('{{ site.baseurl }}/assets/images/sprite.svg') no-repeat 0px 0px;
   width: 13px;
   height: 12px;
   background-position: -71px -40px;
@@ -9532,7 +9532,7 @@ h2.eventDateHeader {
   display: block;
 }
 .quick-guide .close-btn:hover {
-  background: url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  background: url('{{ site.baseurl }}/assets/images/sprite.svg') no-repeat 0px 0px;
   width: 13px;
   height: 12px;
   background-position: -71px -40px;
@@ -9574,7 +9574,7 @@ h2.eventDateHeader {
   position: relative;
 }
 .quick-guide .menu-box .title:after {
-  background: url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  background: url('{{ site.baseurl }}/assets/images/sprite.svg') no-repeat 0px 0px;
   width: 33px;
   height: 33px;
   background-position: -1px -1px;
@@ -9590,7 +9590,7 @@ h2.eventDateHeader {
   color: white;
 }
 .quick-guide .menu-box .title:hover:after {
-  background: url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  background: url('{{ site.baseurl }}/assets/images/sprite.svg') no-repeat 0px 0px;
   width: 33px;
   height: 33px;
   background-position: -1px -1px;
@@ -9633,7 +9633,7 @@ h2.eventDateHeader {
   color: black;
 }
 .quick-guide .menu-box.open .title:after {
-  background: url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  background: url('{{ site.baseurl }}/assets/images/sprite.svg') no-repeat 0px 0px;
   width: 33px;
   height: 33px;
   background-position: -34px -1px;
@@ -9642,7 +9642,7 @@ h2.eventDateHeader {
   background: #f5b546;
 }
 .quick-guide .menu-box.open .title:hover:after {
-  background: url('/assets/images/sprite.svg') no-repeat 0px 0px;
+  background: url('{{ site.baseurl }}/assets/images/sprite.svg') no-repeat 0px 0px;
   width: 33px;
   height: 33px;
   background-position: -34px -1px;
