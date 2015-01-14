@@ -50,7 +50,7 @@
   box-shadow:         @xoffset @yoffset @blur-radius @spread-radius @color;
 }
 
-.sprite(@id; @isHover:false)  { background:url('{{ site.baseurl }}/assets/images/sprite.svg') no-repeat 0px 0px;
+.sprite(@id; @isHover:false)  { background:url('/responsive-prototype/assets/images/sprite.svg') no-repeat 0px 0px;
   & when  (@id="circle-plus") {
     width:33px; height:33px; background-position:-1px -1px;
       & when (@isHover) { background-position:-1px -34px; }
@@ -74,7 +74,7 @@
 }
 
 @sprite-icon-width:88.3px;
-.sprite-icon(@id; @isHover:false)  { width:@sprite-icon-width; height:@sprite-icon-width; background:url('/assets/images/icons-sprite.svg') no-repeat 0px 0px;
+.sprite-icon(@id; @isHover:false)  { width:@sprite-icon-width; height:@sprite-icon-width; background:url('/responsive-prototype/assets/images/icons-sprite.svg') no-repeat 0px 0px;
   & when  (@id="assessment") { background-position:0 0;
     & when (@isHover)        { background-position:-71px -53px;}
   }
