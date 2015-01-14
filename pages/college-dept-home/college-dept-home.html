@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -378,6 +379,21 @@
       <span class="icon-next"></span>
     </a>
   </div>
+=======
+---
+layout: MainLayout
+---
+
+
+{% include nav/nav.html %}
+{% include breadcrumb/breadcrumb.html %} 
+
+<section class="college-dept-home">
+
+{% include top-carousel/top-carousel.html %}
+
+{% include title/title.html %}
+>>>>>>> master
 
 <!--main page content-->
 <div class="row">
@@ -393,6 +409,7 @@
             <h2>Department News</h2>
             <hr />
             <ul class="media-list">
+<<<<<<< HEAD
                 <li class="media">
     <a href="#" class="col-all-3 no-pad">
         <img src="//www.fillmurray.com/200/200" alt="more" class="thumbnail media-object img-responsive news-thumbnail"/>
@@ -441,6 +458,11 @@
     </div>
 </li>
 
+=======
+                {% include dept-news-article/dept-news-article.html %}
+                {% include dept-news-article/dept-news-article.html %}
+                {% include dept-news-article/dept-news-article.html %}
+>>>>>>> master
             </ul>
         </section>
 
@@ -448,6 +470,7 @@
 
     <!--side content-->
     <aside class="right-column col-xs-12 col-sm-4 pull-right">
+<<<<<<< HEAD
         <div class="contact-info panel panel-primary">
   <div class="panel-heading">
     Dance Office
@@ -737,3 +760,21 @@
 </body>
 
 </html>
+=======
+        <div class="row">
+            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+                {% include events/events.html %}
+            </div>
+            <div class="col-all-12 col-xs-6 col-sm-12 pull-left">
+                {% include institutional-message/institutional-message.html %}
+            </div>
+            <div class="col-xs-6 col-sm-12 pull-left">
+                {% include facebook-integration/facebook-integration.html %}
+            </div>
+        </div>
+    </aside>
+</div>
+{% include three-column-quick-links/three-column-quick-links.html %}
+</section>
+<link href="{{ site.baseurl }}/assets/css/college-dept-home.min.css" rel="stylesheet" />
+>>>>>>> master

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -334,11 +335,25 @@
   <h1>Page Title <div class="pull-right"><small>Subtitle</small></div></h1>
 </div>
 
+=======
+---
+layout: MainLayout
+title: Admissions
+---
+
+{% include breadcrumb/breadcrumb.html %} 
+{% include nav/nav.html %}
+
+<section class="admin-home">
+
+    {% include title/title.html %}
+>>>>>>> master
 
     <div class="row">
 
         <section class="article col-sm-8 pull-left">
             <div class="row cells">
+<<<<<<< HEAD
                 <div class="col-all-12 col-xs-4 pull-left space-4">
     <a href="#">
         <img alt="Learn about the 3-track system." src="//www.fillmurray.com/300/400" class="center-block">
@@ -363,12 +378,18 @@
     <p>Obcaecati vero error adipisci blanditiis ab esse quaerat excepturi fugit, doloremque perferendis praesentium quas dolores autem laudantium qui culpa! Asperiores quo, pariatur.</p>
 </div>
 
+=======
+                {% include cells/cells.html %}
+                {% include cells/cells.html %}
+                {% include cells/cells.html %}
+>>>>>>> master
             </div>
             
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima eaque fugit corporis excepturi dolore nemo officia? Obcaecati, odit dolorem ab sit, architecto excepturi beatae vitae placeat tenetur blanditiis soluta harum.</p>
             
             
 
+<<<<<<< HEAD
             <div id="carousel-example" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
@@ -471,10 +492,16 @@
     </div>
     
 </div>
+=======
+            {% include rotating-ads/rotating-ads.html %}
+            
+            {% include three-column-quick-links/three-column-quick-links.html %}
+>>>>>>> master
 
         </section>
 
         <aside class="right-column col-all-12 col-xs-6 col-sm-4 pull-right">
+<<<<<<< HEAD
             <div class="contact-info panel panel-primary">
   <div class="panel-heading">
     Dance Office
@@ -720,3 +747,12 @@
 </body>
 
 </html>
+=======
+            {% include events/events.html %}
+            {% include highlighted-links/highlighted-links.html %}
+            {% include institutional-message/institutional-message.html %}
+        </aside>
+    </div>
+</section>
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/admin-home.min.css" />
+>>>>>>> master

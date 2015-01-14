@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -279,6 +280,17 @@
         <div class="pull-right"><small class="employee-title" itemprop="worksFor">Hollywood</small></div>
     </h2>
 </div>
+=======
+---
+layout: MainLayout
+---
+
+{% include breadcrumb/breadcrumb.html %}
+
+<section class="employee" itemscope itemtype="https://schema.org/Person">
+    <!-- can also use generic title component -->
+    {% include employee-title/employee-title.html %}
+>>>>>>> master
 
     <div class="row">
 
@@ -286,6 +298,7 @@
 
             <figure class="employee col-xs-3 pull-left">
                 <img src="//www.fillmurray.com/200/300" alt="Photo of Bill Murray" class="employee-img img-thumbnail">
+<<<<<<< HEAD
                 <ul class="contact-info">
                     <li>
                         <span aria-hidden="true" class="icon icon-office">&nbsp;</span>
@@ -306,6 +319,30 @@
                 </ul>
             </figure>
             <aside class="employee-qualifications col-xs-9 pull-left">
+=======
+                <figcaption>
+                    <ul class="contact-info">
+                        <li>
+                            <span aria-hidden="true" class="icon icon-office">&nbsp;</span>
+                            <a href="http://www.byui.edu/maps#SMI">417 HLYWD</a>
+                        </li>
+                        <li>
+                            <span aria-hidden="true" class="icon icon-phone">&nbsp;</span>
+                            <a href="tel:12084963767">(555) 555-5555</a>
+                        </li>
+                        <li>
+                            <span aria-hidden="true" class="icon icon-mail">&nbsp;</span>
+                            <a href="mailto:#">asdf@asdf.com</a>
+                        </li>
+                        <li>
+                            <span aria-hidden="true" class="icon icon-home">&nbsp;</span>
+                            <a href="#">www.fillmurray.com</a>
+                        </li>
+                    </ul>
+                </figcaption>
+            </figure>
+            <section class="employee-qualifications col-xs-9 pull-left">
+>>>>>>> master
                 <h2>Education</h2>
                 <ul>
                     <li>MSCIS, University of Phoenix</li>
@@ -330,12 +367,17 @@
 
                 <h2>Optional Item</h2>
                 <p>Seconday Education Instructor (Math, Chemistry, Physics, Geology)</p>
+<<<<<<< HEAD
             </aside>
+=======
+            </section>
+>>>>>>> master
 
         </section>
 
     </div>
 </section>
+<<<<<<< HEAD
 <link rel="stylesheet" href="/responsive-prototype/assets/css/employee-info.min.css" />
 <!-- re-begin Main layout-->
 </main>
@@ -521,3 +563,6 @@
 </body>
 
 </html>
+=======
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/employee-info.min.css" />
+>>>>>>> master
