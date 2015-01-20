@@ -1,0 +1,19 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+.homepage-news {
+    .news-thumbnail.news-thumbnail img {
+        margin-right: 0;
+        @media (min-width: @screen-sm) {
+            max-width: 100%;
+        }
+    }
+    .news-thumbnail {
+        @media (min-width: @screen-sm) {
+            width: 35%;
+        }
+    }
+}

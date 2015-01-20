@@ -1,0 +1,40 @@
+// Core variables and mixins
+@import "../../_less/bootstrap/variables.less";
+@import "../../_less/custom/variables.less"; // Custom Override
+@import "../../_less/bootstrap/mixins.less";
+@import "../../_less/custom/mixins.less"; // Custom Override
+
+.homepage-videos {
+    .video-thumbnail.video-thumbnail {
+        position: relative;
+        float: left;
+        
+        @media (min-width: @screen-sm) {
+            width: 25%;
+        }
+        
+        img {
+            @media (min-width: @screen-sm) {
+                max-width: 100%;
+            }
+        }
+    }
+    .list-group-item.list-group-item {
+        @media (min-width: @screen-sm) {
+            &:last-child {
+                padding: 1em 1em 1.5em;
+            }
+        }
+    }
+    .icon-play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5em;
+        padding: 5px 7.5px;
+        color: #fff;
+        border: #fff solid 2px;
+        border-radius: 50%;
+    }
+}
